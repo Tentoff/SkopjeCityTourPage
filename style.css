@@ -1,0 +1,150 @@
+body {
+
+   background-image: url("SkopjeNight.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+    
+}
+
+
+.BeautifulSight {
+
+   font-family: 'Overpass', sans-serif;
+   font-size: 60px;
+   margin: 30px 120px 100px 25px;
+   color: wheat;
+   height: auto;
+   width: 70%;
+   
+   
+}
+
+
+.ReservationForm {
+
+border-radius: 1%;
+border-style: groove;
+
+
+
+}
+
+
+
+.navMenu {
+
+
+  position:absolute;
+  top: 5%;
+  right: 0.1%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: 'Overpass', sans-serif;
+  
+}
+
+.navMenu a {
+  color: #f6f4e6;
+  text-decoration: none;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: auto;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: #fddb3a;
+}
+
+.navMenu .dot {
+  width: 6px;
+  height: 6px;
+  background: #fddb3a;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(2em);
+  transform: translateX(2em);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:nth-child(1):hover ~ .dot {
+  -webkit-transform: translateX(2em);
+  transform: translateX(2em);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(2):hover ~ .dot {
+  -webkit-transform: translateX(7em);
+  transform: translateX(7em);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(3):hover ~ .dot {
+  -webkit-transform: translateX(12.5em);
+  transform: translateX(12.5em);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(4):hover ~ .dot {
+  -webkit-transform: translateX(17.8em);
+  transform: translateX(17.8em);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+
+
+
+.SkopjeCityText {
+
+   font-weight: 600 ;
+}
+
+
+.GladText {
+
+color: red;
+font-style: italic;
+font-weight: 700;
+
+}
+
+.ReservationForm {
+
+   color: black;
+   font-family: 'Overpass', sans-serif;
+   opacity: 0.7;
+   background-color: wheat;
+   
+   margin-right: 84%;
+   padding-left: 0.5%;
+
+  overflow: hidden;
+   
+}
+
+
+
+.footertext {
+
+  padding-top: 2%;
+   text-align: center;
+   font-style: italic;
+   font-size: 15px;
+   color: white;
+   font-family: 'Overpass', sans-serif;
+  
+
+}
+

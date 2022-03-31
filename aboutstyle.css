@@ -1,0 +1,225 @@
+body {
+
+    background-image: url("VardarSight.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+
+
+.MainAbText {
+
+    font-family: 'Overpass', sans-serif;
+    font-size: 60px;
+    margin: 30px 120px 100px 25px;
+    color: wheat;
+    
+
+
+}
+
+
+.MyHeadshot {
+
+text-align: center;
+
+}
+
+.MyHeadshot img {
+
+   border-radius: 10px solid;
+
+}
+
+
+.navMenu {
+  position:absolute;
+  top: 5%;
+  right: 0.1%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: 'Overpass', sans-serif;
+  
+}
+
+.navMenu a {
+  color: #f6f4e6;
+  text-decoration: none;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: auto;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: #fddb3a;
+}
+
+.navMenu .dot {
+  width: 6px;
+  height: 6px;
+  background: #fddb3a;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:nth-child(1):hover ~ .dot {
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(2):hover ~ .dot {
+  -webkit-transform: translateX(110px);
+  transform: translateX(110px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(3):hover ~ .dot {
+  -webkit-transform: translateX(200px);
+  transform: translateX(200px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(4):hover ~ .dot {
+  -webkit-transform: translateX(285px);
+  transform: translateX(285px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.TextDiv {
+
+opacity: 0.6;
+
+
+
+}
+
+.textInfo {
+
+
+background-color: darksalmon;
+margin: 30px 500px;
+padding: 20px 50px;
+position: fixed;
+font-size: 30px;
+font-family: 'Overpass', sans-serif;
+border-radius: 20px 80px 20px 80px;
+
+
+}
+
+
+/* FORMA ZA KARTATA POCNUVA TUKA  */
+
+.card {
+
+  position: absolute;
+  top:20%;
+  left:50%;
+  transform: translate(-50%, 0%);
+  perspective: 1000px;
+  width: 250px;
+  height: 350px;
+  opacity: 0.8;
+  font-family: 'Overpass', sans-serif;
+}
+
+.card-container {
+
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.7s ease;
+  position: relative;
+  box-shadow: 0px 0px 6px 2px #ffffff50;
+  border-radius: 10px;
+
+}
+
+.card-front, .card-back {
+
+position: absolute;
+width: 100%;
+height: 100%;
+backface-visibility: hidden;
+background: #f0ae58;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+
+}
+
+.card-photo {
+
+  background-image: url('picofme.jpg');
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  opacity: 1;
+
+}
+
+.card-back {
+  
+  transform: rotateY(180deg);
+  text-align: center;
+
+}
+
+.social {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  width: 100px;
+  
+  }
+
+  .social a {
+
+    color: red;
+    
+
+  }
+
+  .card:hover .card-container {
+
+    transform: rotateY(180deg);
+
+  }
+
+  .footertext {
+
+    margin: auto;
+    margin-top: 41.8%;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    font-style: italic;
+    
+  }
